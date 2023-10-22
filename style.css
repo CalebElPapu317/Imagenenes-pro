@@ -1,0 +1,26 @@
+body{
+    font-family: 'Abril Fatface', serif;
+    background-image: url("8a2e539241e60c2abb3c012958998a36.jpg");
+}
+
+p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+div.galeria img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 5px 5px 5px 5px rgb(65, 64, 64);
+}
+
+div.galeria{
+    margin: 10px 120px;
+    width: 200px;
+    background-color: black;
+    float: left;
+}
+
+div.galeria:hover{
+    transform: rotate(-3deg);
+}
